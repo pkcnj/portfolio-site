@@ -66,6 +66,9 @@
     &.active {
         background-color: $mainColor;
         color: white;
+        .icon {
+            display: none;
+        }
         .hamburger {
             span {
                 &:first-child {
@@ -80,9 +83,6 @@
                     transform: rotate(-45deg);
                 }
             }
-        }
-        a:link {
-            color: white;
         }
     }
 }

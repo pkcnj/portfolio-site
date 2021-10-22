@@ -4,7 +4,7 @@ import "./portfolio.scss";
 import {
   featuredPortfolio,
   dataPortfolio,
-  openPortfolio,
+  //openPortfolio,
  } from "../../data";
 
 export default function Portfolio() {
@@ -19,10 +19,10 @@ export default function Portfolio() {
       id: "data",
       title: "Data Projects",
     },
-    {
-      id: "open",
-      title: "Open Source",
-    },
+    //{
+      //id: "open",
+      //title: "Open Source",
+    //},
   ];
 
   useEffect(() => {
@@ -33,9 +33,9 @@ export default function Portfolio() {
       case "data":
         setData(dataPortfolio);
         break;
-      case "open":
-        setData(openPortfolio);
-        break;
+      //case "open":
+        //setData(openPortfolio);
+        //break;
       default:
         setData(featuredPortfolio);
     }
@@ -61,7 +61,11 @@ export default function Portfolio() {
               src={d.img}
               alt="screenshot"
             />
-            <h3>{d.title}</h3>
+            <h3>
+                <a href={d.link}>
+                    {d.title}
+                </a>
+            </h3>
           </div>
         ))}
       </div>

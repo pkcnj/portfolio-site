@@ -8,6 +8,15 @@
         top: 70px;
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
+        scrollbar-hidden::-webkit-scrollbar {
+            display: none;
+        }
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .scrollbar-hidden {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            /* Firefox */
+        }
         >* {
             width: 100vw;
             height: calc(100vh - 70px);
