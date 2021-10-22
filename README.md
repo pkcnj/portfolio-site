@@ -2,19 +2,20 @@
 > Available here:
 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
+## Overview
+A responsive portfolio site written with Create React App.
 
 
-## Technologies Used
-- Create React App - version 
-- Sass - version 
-- iTyped package - version 3.0
+## Languages Used
+* React 
+* JavaScript
+* HTML5
+* CSS
+* iTyped package - version 3.0
 
 
 ## Features
 - React hooks
 - Functional components
+- Sass
 
