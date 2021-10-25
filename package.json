@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "create-react-app": "^4.0.3",
     "ityped": "^1.0.3",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
@@ -38,5 +39,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "> Available here:",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkcnj/portfolio-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkcnj/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/pkcnj/portfolio-site#readme"
 }
